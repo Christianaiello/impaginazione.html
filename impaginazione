@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {background-color: rgb(255, 0, 25);
+        text-align: center;
+        padding: 1px;
+        color: aliceblue;
+}
+
+nav {background-color: lightslategrey;
+     padding:1px;
+     width: 100%;
+     height:37px
+     }
+
+main{height: 500px;
+}
+
+section {
+         padding: 1px;
+         color: azure;
+}
+
+.B{  height: 250px;
+    background-image: url(https://cdn.pixabay.com/photo/2012/03/03/23/06/wall-21534__480.jpg);
+    overflow-x: scroll;
+}
+
+.A { background-color: rgb(255, 0, 25);
+    height: 250px;
+    overflow-x: scroll;
+}
+
+footer {background-color:  lightslategray;
+        padding: 1px;
+}
+a {text-decoration: none;
+} 
+
+li {list-style-type: none;
+    display: inline-block;
+ }
+
+</style>
+</head>
+<body>
+<header> <!-- Testata -->
+<h1> La casa di mattoni </h1>
+</header>
+<nav> <!-- Navigazione -->
+<ul><li><a href="#">Home</a></li><li><a href="#">&nbsp;Chi siamo</a></li></ul>
+</nav>
+<main>
+<section class="B"> <!--1 o piu Sezione-->
+<h3 style="padding-left:30px;padding-top:10px">i mattoni</h3><p style="padding:5px;">I mattoni sono elementi fondamentali dell'edilizia sin dai tempi antichi. La loro storia risale a migliaia di anni fa, quando i primi uomini utilizzavano argilla e fango per costruire le loro abitazioni. Con il passare del tempo, l'uomo ha imparato a cuocere la terracotta per produrre mattoni più resistenti e duraturi. Oggi i mattoni sono realizzati principalmente con argilla e altri materiali naturali, come sabbia e acqua. Sono prodotti in diverse forme e dimensioni, in base alle esigenze di ogni progetto edile. Grazie alla loro resistenza e durabilità, i mattoni sono ancora oggi molto utilizzati nella costruzione di muri, pareti e facciate. Essi sono anche ampiamente utilizzati in ambito decorativo, per creare effetti visivi interessanti. Nonostante l'avvento di nuovi materiali da costruzione, i mattoni mantengono la loro importanza nella costruzione edile e continuano ad essere utilizzati in tutto il mondo per la loro bellezza e resistenza.</p> 
+
+
+
+</section>
+<section class="A">
+<h3 style="padding-left:30px;padding-top:10px">l'edilizia</h3>
+<p>L'edilizia è una delle attività umane più antiche e importanti, che consiste nella progettazione, costruzione e manutenzione di edifici e strutture. Questo settore ha subito una notevole evoluzione nel corso dei secoli, passando dalla costruzione di semplici abitazioni in argilla e fango, fino ad arrivare alle moderne strutture in calcestruzzo e acciaio, in grado di resistere a terremoti e altre calamità naturali. L'edilizia è un settore molto vasto, che coinvolge numerosi professionisti, tra cui architetti, ingegneri, muratori e carpentieri, solo per citarne alcuni. La progettazione di un edificio richiede un'attenta pianificazione e un'analisi dettagliata delle esigenze del cliente e del contesto in cui l'edificio verrà costruito. La costruzione dell'edificio richiede invece l'utilizzo di attrezzature specializzate e materiali di alta qualità, oltre alla supervisione costante da parte di un team di professionisti esperti. La manutenzione dell'edificio, infine, è fondamentale per garantirne la sicurezza e la longevità nel tempo. In sintesi, l'edilizia è un settore che richiede competenza, esperienza e una grande attenzione ai dettagli per realizzare edifici funzionali, belli e sicuri</p>
+</section>
+</main>
+<footer> <!-- Parte bassa della pagina -->
+<p><code> by christian </code></p>
+</footer>
+
+</body>
+</html>
